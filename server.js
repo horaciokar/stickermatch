@@ -18,6 +18,6 @@ app.get('/', (req, res) => {
     res.send('StickerMatch funcionando');
 });
 
-app.listen(3000, () => {
+app.listen(3000, '0.0.0.0', () => {
     console.log('Servidor iniciado en puerto 3000');
 });
